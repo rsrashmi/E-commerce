@@ -1,0 +1,34 @@
+.category_item {
+  background: #fde4e4;
+  padding: 30px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.category_item:hover {
+  transform: translateY(-15px);
+}
+.category_img {
+  background: #fde4e4;
+  padding: 10px; /* Add padding for spacing around the image */
+  border-radius: 50%; /* Optional: Makes the image background circular */
+}
+
+.category_img img {
+  width: 50%; /* Ensures image responsiveness */
+  height: auto;
+  display: block;
+}
+@media only screen and (max-width: 768px) {
+  .category_item {
+    padding: 20px 15px;
+  }
+  .category_img img {
+    width: 40px;
+    height: 40px;
+  }
+  .category_item h6 {
+    font-size: 0.8rem;
+  }
+}
